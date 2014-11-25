@@ -12,10 +12,10 @@ $(function() {
                 clearTimeout(timeout);
                 timeout = null;
                 if ($(window).scrollTop() >= target) {
-                    $(".header").addClass('appear');
+                    $(".header-home").addClass('appear');
                 }
                 if ($(window).scrollTop() + 400 <= target) {
-                    $(".header").removeClass('appear');
+                    $(".header-home").removeClass('appear');
                 }
             }, 250);
         }
@@ -30,6 +30,7 @@ $(function() {
     $('.featured-two').hover(function(){
         $('.featured-hover-two').toggleClass('active');
         $('.featured-text-two').toggleClass('active');
+        $('.macbook-blur').toggleClass('opacity');
     });
 
     $('.featured-three').hover(function(){
@@ -74,7 +75,7 @@ $(function() {
 
 
 
-    $(".nav-item").bind("click", function(e) {
+    $(".nav-item-home").bind("click", function(e) {
 
         e.preventDefault();
         var location = $(this).attr("href")
