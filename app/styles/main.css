@@ -8,87 +8,17 @@
 /* Space out content a bit */
 body {
   height: 100%;
+transition: all .3s ease-out;
+}
+
+body.active {
+  margin-left: 300px;
 }
 
 html {
   height: 100%;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Custom page header */
-
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 1208px;
-    height: 100%;
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
 
 
  /* My stuff */
@@ -112,12 +42,32 @@ html {
 
  .logo {
   width: 100px;
+  transition: all .3s ease-out;
+ }
+
+ .logo.nav-active {
+  margin-left: -300px;
+  transition: all .3s ease-out;
  }
 
   .main-logo  {
-    width: 400px;
-    margin-top: 200px;
+    width: 30%;
+    margin-top: 15%;
 
+ }
+
+ .menu-nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  background: #ffffff;
+  left: -300px;
+  transition: all .3s ease-out;
+ }
+
+ .menu-nav.active {
+  left: 0px;
+  transition: all .3s ease-out;
  }
 
 /* Section 1 */
@@ -125,11 +75,19 @@ html {
     position: relative;
     width: 100%;
     padding: 100px;
-    background: #2f7baf;
-    text-align: center;
+    background: #055270;
+    text-align: left;
+    color: #ffffff;
+    font-size: 15px;
  }
 
+ .section-one .company-info {
+    width: 50%;
+ }
 
+ .section-one p {
+    margin-bottom: 20px;
+ }
 
 /* Section 2 */
  .main-section {
@@ -147,8 +105,14 @@ html {
 
   .macbook {
     display: inline-block;
-    width: 100%;
-    transition: all 10s ease-out;
+    width: 70%;
+    margin: 15%;
+    transition: all 1s ease-out;
+ }
+
+ .img-one.active {
+  margin: 10%;
+   transition: all 1s ease-out;
  }
 
  .section-three {
@@ -169,7 +133,8 @@ html {
     width: 50%;
     background: white;
     display: inline-block;
-    padding: 100px;
+    cursor: pointer;
+    text-align: center;
  }
 
   .featured-right {
@@ -177,7 +142,52 @@ html {
     background: white;
     display: inline-block;
     float: right;
-    padding: 100px;
+    text-align: center;
+    cursor: pointer;
+ }
+
+.featured-container {
+  position: relative;
+}
+
+ .featured-hover {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, .5);
+  overflow: hidden;
+  height: 100%;
+  opacity: 0;
+  transition: all .3s ease-out;
+ }
+
+ .featured-hover-one.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-hover-two.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-hover-three.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-hover-four.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-hover-five.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-hover-six.active {
+  opacity: 1;
+  transition: all .3s ease-out;
  }
 
  .menu-toggle {
@@ -186,6 +196,8 @@ html {
     width: 25px;
     top: 20px;
     cursor: pointer;
+    opacity: 1;
+    display: inline;
     transition: all .3s ease-out;
  }
 
@@ -193,5 +205,143 @@ html {
   opacity: .5;
   transition: all .3s ease-out;
  }
+
+ .menu-toggle.active {
+  opacity: 0;
+  transition: all .3s ease-out;
+ }
+
+ .bubble {
+  width: 0px;
+  position: absolute;
+  top: 70px;
+  opacity: 0;
+  left: 52%;
+  transition: all .3s ease-out;
+ }
+
+ .bubble.active {
+  opacity: 1;
+  width: 400px;
+  transition: all .3s ease-out;
+ }
+
+ .bubble.nav-up {
+  left: 40%;
+ }
+
+ .nav-header {
+  width: 100%;
+  height: 60px;
+  background: #055270;
+  padding-left: 10px;
+  line-height: 60px;
+ }
+
+ .nav-item {
+  height: 60px;
+  width: 100%;
+  background: white;
+  border-top: 1px solid black;
+  cursor: pointer;
+ }
+
+ .nav-item:hover {
+  background: #055270;
+  color: white;
+ }
+
+ .nav-text {
+  height: 60px;
+  font-size: 15px;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 10px;
+ }
+
+ .menu-title {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+ }
+
+ .menu-toggle-nav {
+    position: absolute;
+    right: 20px;
+    width: 25px;
+    top: 20px;
+    cursor: pointer;
+    transition: all .3s ease-out;
+ }
+
+ .featured-text {
+  position: absolute;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 20%;
+  opacity: 0;
+  font-weight: 900;
+  padding-right: 10%;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text-one.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text-two.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text-three.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text-four.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text-five.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text-six.active {
+  opacity: 1;
+  transition: all .3s ease-out;
+ }
+
+ .featured-text h2 {
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: bolder;
+    margin-bottom: 0;
+ }
+
+ .featured-text h5 {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 0;
+ }
+
+ .imac {
+  display: inline-block;
+  
+width: 50%;
+margin: 25%;
+ }
+
+ .footer {
+  width: 100%;
+  height: 60px;
+  background: #000000;
+ }
+
 
 
