@@ -63,6 +63,7 @@ $(function() {
         $('.logo').addClass('nav-active');
         $(this).addClass('active');
         $('.bubble').addClass('nav-up');
+        $('.icons').addClass('active');
     });
 
     $('.menu-toggle-nav').click(function(){
@@ -71,6 +72,7 @@ $(function() {
         $('.logo').removeClass('nav-active');
         $('.menu-toggle').removeClass('active');
         $('.bubble').removeClass('nav-up');
+        $('.icons').removeClass('active');
     });
 
 

@@ -487,6 +487,12 @@ a:hover {
   position: absolute;
   right: 0px;
   margin-top: -90px;
+   transition: all .3s ease-out;
+}
+
+.icons.active {
+  right: 300px;
+   transition: all .3s ease-out;
 }
 
 
