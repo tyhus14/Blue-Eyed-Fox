@@ -97,7 +97,8 @@ $(function() {
         }).css('background-position', '0px ' + parseInt(-y / 6) + 'px');
     });
 
-
-
+    $('.go-to-demo').hover(function(){
+        $('.arrow').toggleClass('active');
+    })
 
 });
