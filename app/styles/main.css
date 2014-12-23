@@ -147,6 +147,12 @@ html {
     transition: all .3s ease-out;
  }
 
+ @media only screen and (max-width : 768px) {
+    .macbook {
+      margin-top: 100px;
+    } 
+  }
+
  .macbook-blur {
     position: absolute;
     left: 0;
@@ -332,7 +338,6 @@ html {
  .nav-item {
     height: 60px;
     width: 100%;
-
     cursor: pointer;
     color: #ffffff;
  }
@@ -392,6 +397,16 @@ html {
     transition: all .3s ease-out;
  }
 
+ @media only screen and (max-width : 768px) {
+    .featured-text {
+      background: #2f2f2f;
+      padding-right: 0;
+      width: 100%;
+      opacity: 1;
+      padding-top: 0;
+    } 
+  }
+
  .featured-text-one.active {
     opacity: 1;
     transition: all .3s ease-out;
@@ -432,7 +447,9 @@ html {
 
  @media only screen and (max-width : 768px) {
     .featured-text h2 {
-      font-size: 10px;
+      font-size: 20px;
+      line-height: 25px;
+      margin-top: 10px;
     } 
   }
 
@@ -441,6 +458,12 @@ html {
     font-style: italic;
     margin-top: 0;
  }
+
+ @media only screen and (max-width : 768px) {
+    .featured-text h5 {
+      font-size: 12px;
+    } 
+  }
 
  .imac {
     display: inline-block;
