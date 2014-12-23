@@ -17,7 +17,7 @@ $(function() {
                 if ($(window).scrollTop() + 400 <= target) {
                     $(".header-home").removeClass('appear');
                 }
-            }, 250);
+            }, 1000);
         }
     });
 
