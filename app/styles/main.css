@@ -21,6 +21,10 @@ html {
 
  /* My stuff */
 
+ a.display {
+  display: none;
+ }
+
  .header-home  {
     background: rgb(0, 0 ,0);
     padding: 10px;
@@ -44,6 +48,10 @@ html {
     transition: all .3s ease-out;
  }
 
+ .header.display {
+  display: none;
+ }
+
  .header-home.appear {
     margin-top: 0px;
     transition: all .3s ease-out;
@@ -63,6 +71,13 @@ html {
     width: 30%;
     margin-top: 15%;
  }
+
+  @media only screen and (max-width : 768px) {
+    .main-logo {
+      width: 50%;
+      margin-top: 50%;
+    } 
+  }
 
  .menu-nav {
     width: 300px;
@@ -88,6 +103,10 @@ html {
     font-size: 15px;
  }
 
+ .section-one.display {
+    display: none;
+ }
+
  .section-one .company-info {
     width: 50%;
  }
@@ -95,6 +114,12 @@ html {
  .section-one p {
     margin-bottom: 20px;
  }
+
+ @media only screen and (max-width : 768px) {
+    .section-one {
+      padding: 30px;
+    } 
+  }
 
 /* Section 2 */
  .main-section {
@@ -109,6 +134,10 @@ html {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+ }
+
+ .main-section.display {
+    display: none;
  }
 
   .macbook {
@@ -145,8 +174,38 @@ html {
  .section-four {
     position: relative;
     width: 100%;
-    height: 400px;
+    padding: 100px;
     background: #216785;
+ }
+
+ @media only screen and (max-width : 768px) {
+    .section-four {
+      padding: 30px;
+    } 
+  }
+
+ .section-four h1 {
+  color: #ecf0f1;
+  font-size: 40px;
+ }
+
+ @media only screen and (max-width : 768px) {
+    .section-four h1 {
+      font-size: 30px;
+      margin-top: 0px;
+    } 
+  }
+
+ .section-four h3 {
+  color: #ecf0f1;
+ }
+
+ .section-four p {
+  color: #ecf0f1;
+ }
+
+ .section-four.display {
+  display: none;
  }
 
  .featured-left {
@@ -157,6 +216,12 @@ html {
     text-align: center;
  }
 
+ @media only screen and (max-width : 768px) {
+    .featured-left {
+      width: 100%;
+    } 
+  }
+
   .featured-right {
     width: 50%;
     background: white;
@@ -165,6 +230,12 @@ html {
     text-align: center;
     cursor: pointer;
  }
+
+ @media only screen and (max-width : 768px) {
+    .featured-right {
+      width: 100%;
+    } 
+  }
 
 .featured-container {
     position: relative;
@@ -359,6 +430,12 @@ html {
     margin-bottom: 0;
  }
 
+ @media only screen and (max-width : 768px) {
+    .featured-text h2 {
+      font-size: 10px;
+    } 
+  }
+
  .featured-text h5 {
     font-size: 20px;
     font-style: italic;
@@ -379,6 +456,10 @@ html {
     background: #2f2f2f;
     line-height: 40px;
     font-size: 12px;
+ }
+
+ .footer.display {
+  display: none;
  }
 
  .footer p {
@@ -403,6 +484,11 @@ a:hover {
     background: #ecf0f1;
 }
 
+@media only screen and (max-width : 768px) {
+    .featured-four {
+      background: #216785;
+    } 
+  }
 
 .featured-two {
     background: #216785;
@@ -411,6 +497,12 @@ a:hover {
 .featured-three {
     background: #216785;
 }
+
+@media only screen and (max-width : 768px) {
+    .featured-three {
+      background: #ecf0f1;
+    } 
+  }
 
 .featured-one {
     background: #ecf0f1;
@@ -431,14 +523,37 @@ a:hover {
   top: 15%;
 }
 
+ @media only screen and (max-width : 768px) {
+    .company-img {
+      position: relative;
+      width: 100%;
+      right: -30px;
+      top: 15%;
+    } 
+  }
+
+
 .company-info {
   color: #2f2f2f;
   display: inline-block;
 }
 
+@media only screen and (max-width : 768px) {
+    .section-one .company-info {
+      width: 100%;
+    } 
+  }
+
 .company-info h2 {
   font-size: 50px;
 }
+
+ @media only screen and (max-width : 768px) {
+    .company-info h2 {
+      font-size: 30px;
+      margin-top: 30px;
+    } 
+  }
 
 .section-one-featured {
   height: 100%;
@@ -499,11 +614,12 @@ a:hover {
 
 .video-container {
   width: 50%;
-margin-top: 0;
-float: right;
-height: 500px;
-display: inline-block;
-text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+  float: right;
+  height: 500px;
+  display: inline-block;
+  text-align: center;
 }
 
 
