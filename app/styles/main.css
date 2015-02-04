@@ -49,6 +49,12 @@ html {
   display: none;
  }
 
+ @media only screen and (max-width : 768px) {
+    .header {
+      display: block;
+    } 
+  }
+
  .header-home.appear {
     margin-top: 0px;
     transition: all .3s ease-out;
@@ -71,8 +77,7 @@ html {
 
   @media only screen and (max-width : 768px) {
     .main-logo {
-      width: 50%;
-      margin-top: 50%;
+      display: none;
     } 
   }
 
@@ -137,6 +142,12 @@ html {
  .main-section.display {
     display: none;
  }
+
+ @media only screen and (max-width : 768px) {
+    .main-section {
+      height: 50%;
+    } 
+  }
 
   .macbook {
     display: inline-block;
@@ -333,6 +344,12 @@ html {
  .bubble.nav-up {
     left: 40%;
  }
+
+ @media only screen and (max-width : 768px) {
+    .bubble {
+      display: none;
+    } 
+  }
 
  .nav-header {
     width: 100%;
@@ -646,6 +663,12 @@ a:hover {
 .social-icon {
   height: 20px;
   margin-right: 10px;
+  transition: all .3s ease-out;
+}
+
+.social-icon:hover {
+  opacity: .7;
+  transition: all .3s ease-out;
 }
 
 .icons {
