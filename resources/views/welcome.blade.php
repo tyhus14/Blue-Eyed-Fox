@@ -43,7 +43,13 @@
 
 
       <div class="carousel">
-        <div class="carousel-item carousel-item-1"></div>
+        <div class="carousel-item carousel-item-1">
+            <div class="container">
+                <div class="carousel-body">
+                    <h1>This is sample text.</h1>
+                </div>
+            </div>
+        </div>
         <div class="carousel-item"></div>
         <div class="carousel-item"></div>
       </div>

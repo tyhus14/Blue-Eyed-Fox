@@ -6631,3 +6631,8 @@ small {
 .carousel-item-1 {
   background-position: right;
   background-image: url("../images/carousel/fox-1.jpg"); }
+
+.carousel-body {
+  padding: 15px;
+  bottom: 0;
+  position: absolute; }
