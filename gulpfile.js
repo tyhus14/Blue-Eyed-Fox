@@ -15,7 +15,7 @@ elixir.config.sourcemaps = false;
 
 elixir(function(mix) {
     mix
-    .browserSync({proxy: "testing.dev"})
+    .browserSync({proxy: "blueeyedfox.dev"})
     .browserify("app.js", "public/js/app.js", "resources/assets/js")
     .scripts([
         "node_modules/jquery/dist/jquery.js",

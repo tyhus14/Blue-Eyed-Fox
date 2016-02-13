@@ -1,3 +1,68 @@
-body {
-	background-color: pink;
+/*===================================*\
+   `COLOR VARS
+\*===================================*/
+
+.header {
+	background-color: $brand_clr-dark;
 }
+
+.navbar {
+	// padding: 1em 0;
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	border: none;
+	background-color: transparent;
+}
+
+.navbar-header {
+	padding: 10px 0;
+}
+
+.navbar-default .navbar-brand {
+	@include font-size(20px);
+	color: $brand_clr-lighter;
+
+	@include respond-min($human) {
+		@include font-size(25px);
+	}
+
+	&:focus,
+	&:hover {
+		color: $brand_clr;
+	}
+}
+
+.navbar-default .navbar-nav > li > a {
+	padding: 17px;
+	color: $brand_clr-lighter;
+
+	@include respond-min($human) {
+		padding: 25px;
+	}
+
+	&:focus,
+	&:hover {
+		color: $brand_clr;
+	}
+
+	&.is-active {
+		background-color: $brand_clr;
+		color: $brand_clr-dark;
+	}
+}
+
+.navbar-nav {
+	margin-top: 0;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+
+	&:focus,
+	&:hover {
+		background-color: transparent;
+	}
+}
+

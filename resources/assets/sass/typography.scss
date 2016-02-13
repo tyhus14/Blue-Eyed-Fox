@@ -1,0 +1,132 @@
+/* ==========================================================================
+   `TYPOGRAPHY (Base)
+   ========================================================================== */
+
+body {
+    color: palette(neutral);
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    line-height: 1.15;
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+h1 {
+    @include font-size(36px);
+}
+
+h2 {
+    @include font-size(32px);
+}
+
+h3 {
+    @include font-size(24px);
+}
+
+h4 {
+    @include font-size(21px);
+}
+
+h5 {
+    @include font-size(20px);
+}
+
+h6 {
+    @include font-size(18px);
+}
+
+p {
+    @include respond-min(81.25em) {
+        font-size: large;
+    }
+}
+
+p,
+ol,
+ul,
+dl,
+address {
+    margin: 0 0 1em 0;
+}
+
+ul,
+ol {
+    padding-left: 1.25em;
+}
+
+ul {}
+ol {}
+li ul,
+li ol {
+    /*font-size: ;*/
+    /*margin: ;*/
+}
+
+dl,
+dd {}
+dt {}
+
+blockquote  {}
+
+// Call out copy
+b {
+    @include font-size(22px);
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+strong  {
+    font-weight: normal;
+}
+
+i,
+em {}
+
+sup,
+sub {
+    font-size: 50%;
+    line-height: 0;
+    position: relative;
+}
+
+sup {
+    top: -.85em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+address {}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+pre,
+code {
+    font: .875em 'andale mono', 'lucida console', monospace;
+    line-height: 1.5;
+}
+
+small {
+    @include font-size(11px);
+}
