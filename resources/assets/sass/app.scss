@@ -6,7 +6,11 @@
 @import "utilities.scss";
 @import "variables.scss";
 
+// Plugin
+@import "slick.scss";
+
 // Custom
 @import "typography.scss";
 @import "layout.scss";
 @import "header.scss";
+@import "carousel.scss";

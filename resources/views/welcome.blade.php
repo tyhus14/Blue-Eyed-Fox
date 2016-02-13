@@ -39,6 +39,15 @@
             </nav>
         </div>
       </header>
+
+
+
+      <div class="carousel">
+        <div class="carousel-item carousel-item-1"></div>
+        <div class="carousel-item"></div>
+        <div class="carousel-item"></div>
+      </div>
+
         <div class="container">
             <div class="content">
                 <div class="title">Laravel asdkfjkalsdjf5</div>

@@ -20,6 +20,7 @@ elixir(function(mix) {
     .scripts([
         "node_modules/jquery/dist/jquery.js",
         "node_modules/bootstrap-sass/assets/javascripts/bootstrap.js",
+        "node_modules/slick-carousel/slick/slick.min.js",
         "public/js/app.js",
     ], null, "./")
     .sass("app.scss", null, {

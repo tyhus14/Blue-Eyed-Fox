@@ -1,3 +1,7 @@
+/*===================================*\
+   `LAYOUT
+\*===================================*/
+
 .container {
 	@include respond-max($human) {
 		padding-right: 0;
