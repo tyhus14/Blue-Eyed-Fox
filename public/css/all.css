@@ -6686,3 +6686,8 @@ small {
   margin: 0 15px;
   background-color: #77e1fc;
   border-radius: 10px; }
+
+.footer {
+  font-family: 'Lato', sans-serif;
+  background-color: #202628;
+  color: #e7e7e7; }

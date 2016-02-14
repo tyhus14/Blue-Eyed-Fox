@@ -111,7 +111,12 @@
       </div>
 
         
-        <footer>
+        <footer class="footer">
+            <div class="container">
+                This is text
+            </div>
+
+
             <script src="{{ asset("/js/modernizr-custom.js") }}"></script>
             <script src="{{ asset("/js/all.js") }}"></script>
         </footer>
