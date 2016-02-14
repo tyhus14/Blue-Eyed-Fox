@@ -6399,12 +6399,9 @@ table {
   content: '←'; }
 
 /* Dots */
-.slick-slider {
-  margin-bottom: 30px; }
-
 .slick-dots {
   position: absolute;
-  bottom: -45px;
+  bottom: -0px;
   display: block;
   width: 100%;
   padding: 0;
@@ -6443,7 +6440,7 @@ table {
 
 .slick-dots li button:before {
   font-family: 'slick';
-  font-size: 6px;
+  font-size: 20px;
   line-height: 20px;
   position: absolute;
   top: 0;
@@ -6636,3 +6633,56 @@ small {
   padding: 15px;
   bottom: 0;
   position: absolute; }
+
+.featured {
+  background-color: #e7e7e7;
+  padding: 1em 15px; }
+  @media screen and (min-width: 768px) {
+    .featured {
+      padding: 4.5em 0; } }
+
+.featured-item {
+  padding: 1.5em 15px; }
+  @media screen and (min-width: 768px) {
+    .featured-item {
+      padding-right: 1em; }
+      .featured-item:last-child {
+        padding-right: 0; } }
+
+.featured-body {
+  font-family: 'Lato', sans-serif;
+  padding-left: 65px;
+  position: relative; }
+
+.featured-icon {
+  content: "";
+  background-color: #77e1fc;
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  left: 0;
+  top: 0;
+  border-radius: 50%; }
+
+.featured-icon--dark {
+  background-color: #202628; }
+
+.featured-title {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 0.5em; }
+
+.featured-info {
+  font-size: 14px;
+  font-size: 0.875rem; }
+
+.contact {
+  color: #fff; }
+
+.contact-body {
+  display: inline-block;
+  margin: 0 15px;
+  background-color: #77e1fc;
+  border-radius: 10px; }

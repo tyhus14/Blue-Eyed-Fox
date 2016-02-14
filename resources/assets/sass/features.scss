@@ -1,0 +1,52 @@
+.featured {
+	background-color: $brand_clr-lighter;
+	padding: 1em 15px;
+
+	@include respond-min($human) {
+		padding: 4.5em 0;
+	}
+}
+
+.featured-item {
+	padding: 1.5em 15px;
+
+	@include respond-min($human) {
+		padding-right: 1em;
+		
+		&:last-child {
+			padding-right: 0;
+		}
+	}
+}
+
+.featured-body {
+	font-family: 'Lato', sans-serif;
+	padding-left: 65px;
+	position: relative;
+}
+
+.featured-icon {
+	content: "";
+	background-color: $brand_clr;
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 50px;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+}
+
+.featured-icon--dark {
+	background-color: $brand_clr-dark;
+}
+
+.featured-title {
+	@include font-size(21px);
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 0.5em;
+}
+
+.featured-info {
+	@include font-size(14px);
+}

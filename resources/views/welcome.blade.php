@@ -9,6 +9,7 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{{ asset("/css/app.css") }}">
     </head>
     <body>
@@ -54,11 +55,62 @@
         <div class="carousel-item"></div>
       </div>
 
+      <div class="featured">
+            <div class="container">
+                <div class="featured-item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="featured-body">
+                        <i class="featured-icon"></i>
+                        <h3 class="featured-title">Web Design/Development</h3>
+                        <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                    </div>
+                </div>
+                <div class="featured-item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="featured-body">
+                        <i class="featured-icon"></i>
+                        <h3 class="featured-title">UI/UX Design</h3>
+                        <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                    </div>
+                </div>
+                <div class="featured-item col-xs-12 col-sm-6 col-lg-4">
+                    <div class="featured-body">
+                        <i class="featured-icon"></i>
+                        <h3 class="featured-title">Responsiveness</h3>
+                        <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                    </div>
+                </div>
+            </div>
+      </div>
+
+      <div class="about">
         <div class="container">
-            <div class="content">
-                <div class="title">Laravel asdkfjkalsdjf5</div>
+            <div class="col-md-8">
+               <h3>This is the long title that goes across this section</h3>
+               <h4>This is the second titl thing here</h4>
+               <div class="col-md-6">Column 1</div>
+               <div class="col-md-6">Column 2</div>
+            </div>
+            <div class="col-md-4">4 column</div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="container">
+            <div class="contact-body">
+                <div class="col-xs-12 col-md-6">
+                    <div class="featured-item">
+                        <div class="featured-body">
+                            <i class="featured-icon featured-icon--dark"></i>
+                            <h3 class="featured-title">Web Design/Development</h3>
+                            <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">Column 2</div>
             </div>
         </div>
+      </div>
+
+        
         <footer>
             <script src="{{ asset("/js/modernizr-custom.js") }}"></script>
             <script src="{{ asset("/js/all.js") }}"></script>
