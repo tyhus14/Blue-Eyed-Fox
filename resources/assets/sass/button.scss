@@ -1,0 +1,16 @@
+.btn-primary {
+	background-color: $brand_clr;
+	padding: 0.5em 1em;
+	color: #fff;
+	border-radius: 50px;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	display: inline-block;
+	cursor: pointer;
+
+	&:focus,
+	&:hover {
+		background-color: $brand_clr-dark;
+		text-decoration: none;
+	}
+}

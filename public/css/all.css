@@ -6212,7 +6212,7 @@ table {
 \*===================================*/
 /*===================================*    `CALC-REM
 \*===================================*/
-/*===================================*   `COLOR VARS
+/*===================================*   `VARIABLES
 \*===================================*/
 /* Slider */
 .slick-slider {
@@ -6569,7 +6569,20 @@ small {
     padding-right: 0;
     padding-left: 0; } }
 
-/*===================================*   `COLOR VARS
+.btn-primary {
+  background-color: #77e1fc;
+  padding: 0.5em 1em;
+  color: #fff;
+  border-radius: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer; }
+  .btn-primary:focus, .btn-primary:hover {
+    background-color: #202628;
+    text-decoration: none; }
+
+/*===================================*   `HEADER
 \*===================================*/
 .header {
   background-color: #202628; }
@@ -6617,23 +6630,48 @@ small {
 
 /*===================================*   `CAROUSEL
 \*===================================*/
+.carousel .container {
+  position: relative; }
+
 .carousel-item {
   background-color: #77e1fc;
   height: 200px;
-  background-size: cover; }
+  background-size: cover;
+  color: #e7e7e7; }
   @media screen and (min-width: 768px) {
     .carousel-item {
       height: 560px; } }
+  .carousel-item h1 {
+    font-size: 50px;
+    font-size: 3.125rem; }
+  .carousel-item span {
+    font-family: 'Lato', sans-serif;
+    color: #77e1fc; }
 
 .carousel-item-1 {
   background-position: right;
   background-image: url("../images/carousel/fox-1.jpg"); }
+  .carousel-item-1 .carousel-body {
+    top: 17em; }
+
+.carousel-item-2 {
+  background-image: url("../images/carousel/fox-2.jpg"); }
+  .carousel-item-2 .carousel-body {
+    top: 4em;
+    right: 1em; }
+
+.carousel-item-3 {
+  background-image: url("../images/carousel/fox-3.jpg"); }
+  .carousel-item-3 .carousel-body {
+    top: 25em; }
 
 .carousel-body {
   padding: 15px;
   bottom: 0;
   position: absolute; }
 
+/*===================================*   `FEATURED
+\*===================================*/
 .featured {
   background-color: #e7e7e7;
   padding: 1em 15px; }
@@ -6658,12 +6696,22 @@ small {
   content: "";
   background-color: #77e1fc;
   position: absolute;
-  display: block;
   width: 50px;
   height: 50px;
   left: 0;
   top: 0;
-  border-radius: 50%; }
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .featured-icon i {
+    color: #fff; }
 
 .featured-icon--dark {
   background-color: #202628; }
@@ -6678,16 +6726,74 @@ small {
   font-size: 14px;
   font-size: 0.875rem; }
 
+/*===================================*   `CONTACT
+\*===================================*/
 .contact {
   color: #fff; }
 
+.contact .container {
+  border-radius: 7px;
+  background-color: #77e1fc; }
+
 .contact-body {
-  display: inline-block;
   margin: 0 15px;
-  background-color: #77e1fc;
   border-radius: 10px; }
 
+.contact .featured-item:last-child {
+  padding-right: 1em; }
+
+/*===================================*   `FOOTER
+\*===================================*/
 .footer {
   font-family: 'Lato', sans-serif;
   background-color: #202628;
   color: #e7e7e7; }
+
+.about {
+  font-family: 'Lato', sans-serif;
+  padding: 5em 0; }
+
+.about-title {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  margin-bottom: 1em;
+  text-transform: none; }
+
+.about-secondary-title {
+  font-size: 16px;
+  font-size: 1rem;
+  color: #77e1fc;
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7; }
+
+.about-body {
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin: 0 -15px; }
+  .about-body p {
+    font-size: 14px;
+    font-size: 0.875rem;
+    padding-right: 15px;
+    margin-top: 0.5em;
+    color: #767c7e; }
+  .about-body span {
+    font-weight: 900;
+    margin-bottom: 1em; }
+
+.about-logo-container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.about-logo {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 2em; }

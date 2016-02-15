@@ -10,6 +10,7 @@
 
         <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ asset("/css/app.css") }}">
     </head>
     <body>
@@ -47,35 +48,50 @@
         <div class="carousel-item carousel-item-1">
             <div class="container">
                 <div class="carousel-body">
-                    <h1>This is sample text.</h1>
+                    <h1>Websites</h1>
+                    <span>Interactive website design</span>
                 </div>
             </div>
         </div>
-        <div class="carousel-item"></div>
-        <div class="carousel-item"></div>
+        <div class="carousel-item carousel-item-2">
+            <div class="container">
+                <div class="carousel-body">
+                    <h1>Web Applications</h1>
+                    <span>Single page apps development</span>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item carousel-item-3">
+            <div class="container">
+                <div class="carousel-body">
+                    <h1>WordPress</h1>
+                    <span>Content management system</span>
+                </div>
+            </div>
+        </div>
       </div>
 
       <div class="featured">
             <div class="container">
                 <div class="featured-item col-xs-12 col-sm-6 col-lg-4">
                     <div class="featured-body">
-                        <i class="featured-icon"></i>
+                        <div class="featured-icon"><i class="fa fa-laptop fa-lg"></i></div>
                         <h3 class="featured-title">Web Design/Development</h3>
-                        <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                        <p class="featured-info">Through this discovery process we will design and conceptulaize a visually exciting and content driven website that conveys your message, while building your business.</p>
                     </div>
                 </div>
                 <div class="featured-item col-xs-12 col-sm-6 col-lg-4">
                     <div class="featured-body">
-                        <i class="featured-icon"></i>
+                        <div class="featured-icon"><i class="fa fa-desktop fa-lg"></i></div>
                         <h3 class="featured-title">UI/UX Design</h3>
                         <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
                     </div>
                 </div>
                 <div class="featured-item col-xs-12 col-sm-6 col-lg-4">
                     <div class="featured-body">
-                        <i class="featured-icon"></i>
-                        <h3 class="featured-title">Responsiveness</h3>
-                        <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                        <div class="featured-icon"><i class="fa fa-paint-brush fa-lg"></i></div>
+                        <h3 class="featured-title">Graphic Design</h3>
+                        <p class="featured-info">Your identity needs to translate to all devices, screens and media. We offer creative solutions in web design, marketing materials, logos, presentation materials and brochures in an unique way.</p>
                     </div>
                 </div>
             </div>
@@ -84,12 +100,26 @@
       <div class="about">
         <div class="container">
             <div class="col-md-8">
-               <h3>This is the long title that goes across this section</h3>
-               <h4>This is the second titl thing here</h4>
-               <div class="col-md-6">Column 1</div>
-               <div class="col-md-6">Column 2</div>
+               <h3 class="about-title">Blue Eyed Fox is is a small creative web design and development consulting firm.</h3>
+               <h4 class="about-secondary-title">Digital marketing and web application/website development</h4>
+               <div class="col-md-6 about-body">
+                    <span>What We Do</span>
+                    <p>A group of very talented professionals collaborate with you to custom design a web application/website with your specific needs in mind. We understand the perfect balance between technical fluency and artistic creativity.</p>
+
+                    <p>Your website can be built and optimized for multi platforms with SEO (search engine optimization) on desktop and mobile devices. We can include informational, e-commerce, social media, blogs and various marketing campaigns which translate into sales for you.</p>
+                    <a href="#" class="btn-primary">More</a>
+                </div>
+               <div class="col-md-6 about-body">
+                    <span>Vision</span>
+                    <p>We are excellent problem solvers and are committed to careful attention to our clients. We will make the process easy for you by offering creative solutions while maintaining budgets and adhering to deadlines. Whether you are building a website from scratch or revamping a current website, we bring innovation and functionality in everything we do.</p>
+                    <a href="#" class="btn-primary">More</a>
+                </div>
             </div>
-            <div class="col-md-4">4 column</div>
+            <div class="col-md-4">
+                <div class="about-logo-container">
+                    <img class="about-logo" src="images/logo.png" alt="Logo">
+                </div>
+            </div>
         </div>
       </div>
 
@@ -115,10 +145,9 @@
             <div class="container">
                 This is text
             </div>
-
-
-            <script src="{{ asset("/js/modernizr-custom.js") }}"></script>
-            <script src="{{ asset("/js/all.js") }}"></script>
         </footer>
+
+        <script src="{{ asset("/js/modernizr-custom.js") }}"></script>
+        <script src="{{ asset("/js/all.js") }}"></script>
     </body>
 </html>

@@ -2,19 +2,54 @@
    `CAROUSEL
 \*===================================*/
 
+.carousel .container {
+	position: relative;
+}
+
 .carousel-item {
 	background-color: $brand_clr;
 	height: 200px;
     background-size: cover;
+    color: $brand_clr-lighter;
 
 	@include respond-min($human) {
 		height: 560px;
+	}
+
+	h1 {
+		@include font-size(50px);
+	}
+
+	span {
+		font-family: 'Lato', sans-serif;
+		color: $brand_clr;
 	}
 }
 
 .carousel-item-1 {
     background-position: right;
 	background-image: url("../images/carousel/fox-1.jpg");
+
+	.carousel-body {
+		top: 17em;
+	}
+}
+
+.carousel-item-2 {
+	background-image: url("../images/carousel/fox-2.jpg");
+
+	.carousel-body {
+		top: 4em;
+		right: 1em;
+	}
+}
+
+.carousel-item-3 {
+	background-image: url("../images/carousel/fox-3.jpg");
+
+	.carousel-body {
+		top: 25em;
+	}
 }
 
 .carousel-body {

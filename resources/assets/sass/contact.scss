@@ -1,10 +1,23 @@
+/*===================================*\
+   `CONTACT
+\*===================================*/
+
 .contact {
 	color: #fff;
 }
 
-.contact-body {
-	display: inline-block;
-	margin: 0 15px;
+.contact .container {
+	border-radius: 7px;
 	background-color: $brand_clr;
+}
+
+.contact-body {
+	// display: inline-block;
+	margin: 0 15px;
 	border-radius: 10px;
+	// width: 100%;
+}
+
+.contact .featured-item:last-child {
+	padding-right: 1em;
 }

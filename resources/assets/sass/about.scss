@@ -1,0 +1,49 @@
+.about {
+	font-family: 'Lato', sans-serif;
+	padding: 5em 0;
+}
+
+.about-title {
+	@include font-size(21px);
+	margin-bottom: 1em;
+	text-transform: none;
+}
+
+.about-secondary-title {
+	@include font-size(16px);
+	color: $brand_clr;
+	margin: 1em 0;
+	padding: 1em 0;
+	border-bottom: 1px solid $brand_clr-lighter;
+	border-top: 1px solid $brand_clr-lighter;
+}
+
+.about-body {
+	@include font-size(14px);
+	margin: 0 -15px;
+
+	p {
+		@include font-size(14px);
+		padding-right: 15px;
+		margin-top: 0.5em;
+		color: #767c7e;
+	}
+
+	span {
+		// font-family: 'Fjalla One', sans-serif;
+		font-weight: 900;
+		margin-bottom: 1em;
+	}
+}
+
+.about-logo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-logo {
+	width: 100%;
+	max-width: 300px;
+	margin-top: 2em;
+}
