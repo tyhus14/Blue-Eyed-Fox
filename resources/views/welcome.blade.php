@@ -106,21 +106,21 @@
                     <div class="contact-block-body">
                         <h4>Responsive</h4>
                         <p>Works on all devices.</p>
-                        <a href="/implementation">More</a>
+                        <a href="/implementation">more <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
                 <div class="contact-block contact-block-2">
                     <div class="contact-block-body">
                         <h4>SEO</h4>
                         <p>Increase views.</p>
-                        <a href="/implementation">More</a>
+                        <a href="/implementation">more <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
                 <div class="contact-block contact-block-3">
                     <div class="contact-block-body">
                         <h4>Analytics</h4>
                         <p>Visits to page.</p>
-                        <a href="/implementation">More</a>
+                        <a href="/implementation">more <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
             </div>

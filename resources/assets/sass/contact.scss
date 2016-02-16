@@ -4,6 +4,7 @@
 
 .note {
 	color: #fff;
+	margin: 2em 0;
 }
 
 .note-body {
@@ -43,9 +44,14 @@
 	position: relative;
 	padding: 33px 0;
 
+	h4 {
+		@include font-size(18px);
+	}
+
 	p {
-		margin-bottom: 0;
 		@include font-size(14px);
+		margin-bottom: 0;
+		margin-top: 0.25em;
 	}
 
 	&:before {

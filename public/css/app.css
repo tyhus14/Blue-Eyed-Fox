@@ -6564,9 +6564,6 @@ small {
 
 /*===================================*   `LAYOUT
 \*===================================*/
-body {
-  padding-top: 70px; }
-
 @media screen and (max-width: 767.9875px) {
   .container {
     padding-right: 0;
@@ -6620,12 +6617,7 @@ button {
 /*===================================*   `HEADER
 \*===================================*/
 .header {
-  background-color: #202628;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  display: block; }
+  background-color: #202628; }
 
 .navbar {
   margin-bottom: 0; }
@@ -6674,7 +6666,7 @@ button {
   position: relative; }
 
 .carousel-item {
-  background-color: #77e1fc;
+  background-color: #e7e7e7;
   height: 200px;
   background-size: cover;
   color: #e7e7e7; }
@@ -6790,7 +6782,8 @@ button {
 /*===================================*   `NOTE
 \*===================================*/
 .note {
-  color: #fff; }
+  color: #fff;
+  margin: 2em 0; }
 
 .note-body {
   background-color: #77e1fc;
@@ -6821,10 +6814,14 @@ button {
   border-top: 1px solid #e7e7e7;
   position: relative;
   padding: 33px 0; }
+  .contact-block h4 {
+    font-size: 18px;
+    font-size: 1.125rem; }
   .contact-block p {
-    margin-bottom: 0;
     font-size: 14px;
-    font-size: 0.875rem; }
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    margin-top: 0.25em; }
   .contact-block:before {
     content: "";
     height: 75px;
