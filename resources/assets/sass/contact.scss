@@ -96,6 +96,7 @@
 	padding-left: 90px;
 }
 
+
 .contact-form {
 	background-color: $brand_clr-lighter;
 	border-radius: 8px;
@@ -103,5 +104,20 @@
 
 	@include respond-min($human) {
 		height: 400px;
+	}
+
+	.form-submit {
+		display: none;
+	}
+
+	&.is-active {
+
+		.form-content-main {
+			display: none;
+		}
+		
+		.form-submit {
+			display: block;
+		}
 	}
 }

@@ -29,4 +29,10 @@ $(function () {
   });
 });
 
+// Form Submit
+$(".js-contact-form").submit(function (e) {
+  $(".contact-form").addClass("is-active");
+  e.preventDefault();
+});
+
 },{}]},{},[1]);
