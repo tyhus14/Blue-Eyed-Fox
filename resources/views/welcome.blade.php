@@ -89,7 +89,7 @@
                         <div class="featured-body">
                             <div class="featured-icon featured-icon--dark"><i class="fa fa-lightbulb-o fa-lg"></i></div>
                             <h3 class="featured-title">Why the arctic fox?</h3>
-                            <p class="featured-info">The Celtic legends believed that the fox were guides and honored for their keen vision and wisdom. The blue eyed arctic fox were noted for their cleverness and cunning ability for quick thinking and adaptability. <br> <br> Responsive and swift.. creative problem solvers, the fox are determined and powerfully focused to always hit their target. We believe the blue eyed fox embodies the spirit of our oragnization's approach and philosophy.</p>
+                            <p class="featured-info">The Celtic legends believed that the fox were guides and honored for their keen vision and wisdom. The blue eyed arctic fox were noted for their cleverness and cunning ability for quick thinking and adaptability. <br> <br> Responsive and swift... creative problem solvers, the fox are determined and powerfully focused to always hit their target. We believe the blue eyed fox embodies the spirit of our oragnization's approach and philosophy.</p>
                         </div>
                     </div>
                 </div>
@@ -105,19 +105,22 @@
                 <div class="contact-block contact-block-1">
                     <div class="contact-block-body">
                         <h4>Responsive</h4>
-                        <p>This is another description</p>
+                        <p>Works on all devices.</p>
+                        <a href="/implementation">More</a>
                     </div>
                 </div>
                 <div class="contact-block contact-block-2">
                     <div class="contact-block-body">
                         <h4>SEO</h4>
-                        <p>This is another description</p>
+                        <p>Increase views.</p>
+                        <a href="/implementation">More</a>
                     </div>
                 </div>
                 <div class="contact-block contact-block-3">
                     <div class="contact-block-body">
                         <h4>Analytics</h4>
-                        <p>This is another description</p>
+                        <p>Visits to page.</p>
+                        <a href="/implementation">More</a>
                     </div>
                 </div>
             </div>
@@ -134,7 +137,7 @@
                     <span class="form-submit">Thank you for contacting Blue Eyed Fox. We will contact you shortly.</span>
                 </form>
             </div>
-            <div class="col-xs-12 col-md-4 contact-col">
+            <div class="col-xs-12 col-md-4 contact-col contact-col-three">
                 <h1>Contact</h1>
                 <div class="contact-block contact-block-icon">
                     <i class="fa fa-home"></i>

@@ -41,10 +41,11 @@
 .contact-block {
 	border-top: 1px solid $brand_clr-lighter;
 	position: relative;
-	padding: 43px 0;
+	padding: 33px 0;
 
 	p {
 		margin-bottom: 0;
+		@include font-size(14px);
 	}
 
 	&:before {
@@ -61,6 +62,10 @@
 	&:last-child {
 		border-bottom: 1px solid $brand_clr-lighter;
 	}
+}
+
+.contact-col-three .contact-block {
+	padding: 43px 0;
 }
 
 .contact-block-1:before {
@@ -94,6 +99,19 @@
 
 .contact-block-body {
 	padding-left: 90px;
+
+	a {
+		@include font-size(12px);
+		color: $brand_clr;
+		position: relative;
+		top: -3px;
+
+		&:focus,
+		&:hover {
+			text-decoration: none;
+			color: $brand_clr-dark;
+		}
+	}
 }
 
 
@@ -115,7 +133,7 @@
 		.form-content-main {
 			display: none;
 		}
-		
+
 		.form-submit {
 			display: block;
 		}

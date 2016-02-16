@@ -6820,9 +6820,11 @@ button {
 .contact-block {
   border-top: 1px solid #e7e7e7;
   position: relative;
-  padding: 43px 0; }
+  padding: 33px 0; }
   .contact-block p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 14px;
+    font-size: 0.875rem; }
   .contact-block:before {
     content: "";
     height: 75px;
@@ -6834,6 +6836,9 @@ button {
     border-radius: 50%; }
   .contact-block:last-child {
     border-bottom: 1px solid #e7e7e7; }
+
+.contact-col-three .contact-block {
+  padding: 43px 0; }
 
 .contact-block-1:before {
   background-image: url("../images/contact/implement-1.jpg"); }
@@ -6858,6 +6863,15 @@ button {
 
 .contact-block-body {
   padding-left: 90px; }
+  .contact-block-body a {
+    font-size: 12px;
+    font-size: 0.75rem;
+    color: #77e1fc;
+    position: relative;
+    top: -3px; }
+    .contact-block-body a:focus, .contact-block-body a:hover {
+      text-decoration: none;
+      color: #202628; }
 
 .contact-form {
   background-color: #e7e7e7;
