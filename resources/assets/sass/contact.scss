@@ -4,7 +4,30 @@
 
 .note {
 	color: #fff;
-	margin: 2em 0;
+	margin: 0;
+
+	@include respond-min($human) {
+		margin: 2em 0;
+	}
+}
+
+.note .featured-body {
+	padding-left: 0;
+	padding-top: 65px;
+
+	.featured-icon {
+		right: 0;
+		margin: 0 auto;
+
+		@include respond-min($human) {
+			margin: 0;
+		}
+	}
+
+	@include respond-min($human) {
+		padding-left: 65px;
+		padding-top: 0;
+	}
 }
 
 .note-body {

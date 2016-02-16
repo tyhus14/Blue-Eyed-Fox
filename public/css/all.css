@@ -6298,17 +6298,7 @@ table {
   display: none; }
 
 /* Slider */
-.slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat; }
-
 /* Icons */
-@font-face {
-  font-family: 'slick';
-  font-weight: normal;
-  font-style: normal;
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg"); }
-
 /* Arrows */
 .slick-prev,
 .slick-next {
@@ -6783,7 +6773,24 @@ button {
 \*===================================*/
 .note {
   color: #fff;
-  margin: 2em 0; }
+  margin: 0; }
+  @media screen and (min-width: 768px) {
+    .note {
+      margin: 2em 0; } }
+
+.note .featured-body {
+  padding-left: 0;
+  padding-top: 65px; }
+  .note .featured-body .featured-icon {
+    right: 0;
+    margin: 0 auto; }
+    @media screen and (min-width: 768px) {
+      .note .featured-body .featured-icon {
+        margin: 0; } }
+  @media screen and (min-width: 768px) {
+    .note .featured-body {
+      padding-left: 65px;
+      padding-top: 0; } }
 
 .note-body {
   background-color: #77e1fc;
