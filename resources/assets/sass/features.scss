@@ -4,7 +4,7 @@
 
 .featured {
 	background-color: $brand_clr-lighter;
-	padding: 1em 15px;
+	padding: 1em 0;
 
 	@include respond-min($human) {
 		padding: 4.5em 0;

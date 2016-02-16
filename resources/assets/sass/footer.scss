@@ -6,4 +6,80 @@
 	font-family: 'Lato', sans-serif;
 	background-color: $brand_clr-dark;
 	color: $brand_clr-lighter;
+    padding: 3em 0;
+    text-align: center;
+
+    @include respond-min($human) {
+    	text-align: left;
+    }
+
+    a {
+    	padding: 0 0.5em;
+
+    	&:focus,
+    	&:hover {
+    		color: $brand_clr;
+    		text-decoration: none;
+    	}
+
+    	&:first-child {
+    		padding-left: 0;
+    	}
+    }
+
+    span {
+    	margin-top: 0.25em;
+    	@include font-size(14px);
+    }
+}
+
+.footer-links {
+	color: #696969;
+
+	a {
+		color: $brand_clr-lighter;
+	}
+}
+
+.footer-copyright {
+	display: block;
+}
+
+.footer-social {
+	margin-top: 0.5em;
+
+	a {
+		margin-right: 10px;
+	}
+
+	@include respond-min($elf) {
+		margin-top: 0;
+		text-align: right;
+		a {
+			margin-left: 10px;
+			margin-right: 0;
+		}
+	}
+
+	a {
+		color: $brand_clr-lighter;
+		background-color: $brand_clr;
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: relative;
+
+		&:focus,
+		&:hover {
+			background-color: #fff;
+			color: $brand_clr-dark;
+		}
+
+		i {
+			position: absolute;
+			top: 8px;
+			left: 8px;
+		}
+	}
 }

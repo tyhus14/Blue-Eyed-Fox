@@ -1,6 +1,10 @@
 .about {
 	font-family: 'Lato', sans-serif;
-	padding: 5em 0;
+	padding: 4em 0;
+
+	@include respond-min($human) {
+		padding: 5em 0 4em 0;
+	}
 }
 
 .about-title {
@@ -20,7 +24,11 @@
 
 .about-body {
 	@include font-size(14px);
-	margin: 0 -15px;
+	margin: 2em -15px;
+
+	@include respond-min($human) {
+		margin: 0 -15px;
+	}
 
 	p {
 		@include font-size(14px);

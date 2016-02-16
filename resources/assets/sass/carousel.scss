@@ -17,12 +17,23 @@
 	}
 
 	h1 {
-		@include font-size(50px);
+		@include font-size(36px);
+
+		@include respond-min($human) {
+			@include font-size(50px);
+		}
 	}
 
 	span {
+		@include font-size(14px);
+		position: relative;
+		top: -10px;
 		font-family: 'Lato', sans-serif;
 		color: $brand_clr;
+
+		@include respond-min($human) {
+			@include font-size(25px);
+		}
 	}
 }
 
@@ -31,7 +42,11 @@
 	background-image: url("../images/carousel/fox-1.jpg");
 
 	.carousel-body {
-		top: 17em;
+		top: 1em;
+
+		@include respond-min($human) {
+			top: 17em;
+		}
 	}
 }
 
@@ -39,8 +54,11 @@
 	background-image: url("../images/carousel/fox-2.jpg");
 
 	.carousel-body {
-		top: 4em;
-		right: 1em;
+		top: 2em;
+		@include respond-min($human) {
+			top: 4em;
+			right: 1em;
+		}
 	}
 }
 
@@ -48,7 +66,11 @@
 	background-image: url("../images/carousel/fox-3.jpg");
 
 	.carousel-body {
-		top: 25em;
+		top: 6em;
+
+		@include respond-min($human) {
+			top: 25em;
+		}
 	}
 }
 

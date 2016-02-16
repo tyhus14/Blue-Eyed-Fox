@@ -123,19 +123,79 @@
         </div>
       </div>
 
-      <div class="contact">
+      <div class="note">
         <div class="container">
-            <div class="contact-body">
-                <div class="col-xs-12 col-md-6">
+            <div class="note-body">
+                <div class="col-xs-12 ">
                     <div class="featured-item">
                         <div class="featured-body">
-                            <i class="featured-icon featured-icon--dark"></i>
-                            <h3 class="featured-title">Web Design/Development</h3>
-                            <p class="featured-info">Making pixel perfect layouts in a way that connects the users eye in an eye catching, organized and flowing way is what we do.</p>
+                            <div class="featured-icon featured-icon--dark"><i class="fa fa-lightbulb-o fa-lg"></i></div>
+                            <h3 class="featured-title">Why the arctic fox?</h3>
+                            <p class="featured-info">The Celtic legends believed that the fox were guides and honored for their keen vision and wisdom. The blue eyed arctic fox were noted for their cleverness and cunning ability for quick thinking and adaptability. responsive and swift.. creative problem solvers, the fox are determined and powerfully focused to always hit their target. We believe the blue eyed fox embodies the spirit of our oragnization's approach and philosophy.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6">Column 2</div>
+                <!-- <div class="col-xs-12 col-md-6">Column 2</div> -->
+            </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="container">
+            <div class="col-xs-12 col-md-4 contact-col">
+                <h1>Implementation</h1>
+                <div class="contact-block contact-block-1">
+                    <div class="contact-block-body">
+                        <h4>Responsive</h4>
+                        <p>This is another description</p>
+                    </div>
+                </div>
+                <div class="contact-block contact-block-2">
+                    <div class="contact-block-body">
+                        <h4>SEO</h4>
+                        <p>This is another description</p>
+                    </div>
+                </div>
+                <div class="contact-block contact-block-3">
+                    <div class="contact-block-body">
+                        <h4>Analytics</h4>
+                        <p>This is another description</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4 contact-col">
+                <h1>Work with Us</h1>
+                <form class="contact-form">
+                    <span>Feel free to contact us if you would like to work with us or if you would like learn more about what we do.</span>
+                    <input type="text" placeholder="name...">
+                    <input type="email" placeholder="email...">
+                    <textarea placeholder="message..."></textarea>
+                    <button class="btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col-xs-12 col-md-4 contact-col">
+                <h1>Contact</h1>
+                <div class="contact-block contact-block-icon">
+                    <i class="fa fa-home"></i>
+                    <div class="contact-block-body">
+                        <h4>Location</h4>
+                        <p>Greenville, SC</p>
+                    </div>
+                </div>
+                <div class="contact-block contact-block-icon">
+                    <i class="fa fa-phone"></i>
+                    <div class="contact-block-body">
+                        <h4>Phone</h4>
+                        <p>864-723-6389</p>
+                    </div>
+                </div>
+                <div class="contact-block contact-block-icon">
+                    <i class="fa fa-envelope"></i>
+                    <div class="contact-block-body">
+                        <h4>Email</h4>
+                        <p>tyler@blueeyedfox.com</p>
+                    </div>
+                </div>
             </div>
         </div>
       </div>
@@ -143,7 +203,15 @@
         
         <footer class="footer">
             <div class="container">
-                This is text
+                <div class="col-xs-12 col-md-9 footer-links">
+                    <a href="">Work</a> / <a href="">About</a> / <a href="">Contact</a> / <a href="">Implementation</a>
+                    <span class="footer-copyright">&copy; Blue Eyed Fox, LLC 2016</span>
+                </div>
+                <div class="col-xs-12 col-md-3 footer-social">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
             </div>
         </footer>
 

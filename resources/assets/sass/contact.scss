@@ -1,23 +1,107 @@
 /*===================================*\
-   `CONTACT
+   `NOTE
 \*===================================*/
 
-.contact {
+.note {
 	color: #fff;
 }
 
-.contact .container {
-	border-radius: 7px;
+.note-body {
 	background-color: $brand_clr;
+	display: inline-block;
+	width: 100%;
+
+	@include respond-min($human) {
+		border-radius: 10px;
+	}
 }
 
-.contact-body {
-	// display: inline-block;
-	margin: 0 15px;
-	border-radius: 10px;
-	// width: 100%;
-}
-
-.contact .featured-item:last-child {
+.note .featured-item:last-child {
 	padding-right: 1em;
+}
+
+.contact {
+	padding: 5em 0;
+	font-family: 'Lato', sans-serif;
+
+	h1 {
+		@include font-size(21px);
+		margin-bottom: 1em;
+	}
+}
+
+.contact-col + .contact-col {
+	margin-top: 3em;
+
+	@include respond-min($human) {
+		margin-top: 0;
+	}
+}
+
+.contact-block {
+	border-top: 1px solid $brand_clr-lighter;
+	position: relative;
+	padding: 43px 0;
+
+	p {
+		margin-bottom: 0;
+	}
+
+	&:before {
+		content: "";
+		height: 75px;
+		width: 75px;
+		background-color: blue;
+		position: absolute;
+		left: 0;
+		top: 30px;
+		border-radius: 50%;
+	}
+
+	&:last-child {
+		border-bottom: 1px solid $brand_clr-lighter;
+	}
+}
+
+.contact-block-1:before {
+	background-image: url("../images/contact/implement-1.jpg");
+}
+
+.contact-block-2:before {
+	background-image: url("../images/contact/implement-2.jpg");
+}
+
+.contact-block-3:before {
+	background-image: url("../images/contact/implement-3.jpg");
+}
+
+.contact-block-icon {
+	.contact-block-body {
+		padding-left: 40px;
+	}
+
+	i {
+		@include font-size(25px);
+		position: absolute;
+		left: 0;
+	}
+
+	&:before {
+		display: none;
+	}
+}
+
+
+.contact-block-body {
+	padding-left: 90px;
+}
+
+.contact-form {
+	background-color: $brand_clr-lighter;
+	border-radius: 8px;
+	padding: 1em;
+
+	@include respond-min($human) {
+		height: 400px;
+	}
 }
