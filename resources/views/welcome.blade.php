@@ -163,12 +163,12 @@
             </div>
             <div class="col-xs-12 col-md-4 contact-col">
                 <h1>Work with Us</h1>
-                <form class="contact-form">
+                <form class="contact-form" action="http://formspree.io/tyler@blueeyedfox.com">
                     <span>Feel free to contact us if you would like to work with us or if you would like learn more about what we do.</span>
                     <input type="text" placeholder="name...">
                     <input type="email" placeholder="email...">
                     <textarea placeholder="message..."></textarea>
-                    <button class="btn-primary">Submit</button>
+                    <input class="btn-primary btn-submit" type="submit" value="submit">
                 </form>
             </div>
             <div class="col-xs-12 col-md-4 contact-col">
@@ -206,9 +206,9 @@
                     <span class="footer-copyright">&copy; Blue Eyed Fox, LLC 2016</span>
                 </div>
                 <div class="col-xs-12 col-md-3 footer-social">
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/Blue-Eyed-Fox-LLC-605117009616763/" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/blueeyedfoxllc" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/9223441?trk=tyah&trkInfo=tarId%3A1419345611015%2Ctas%3Ablue%20eyed%20fox%2Cidx%3A1-1-1" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>
         </footer>

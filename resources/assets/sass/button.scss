@@ -14,3 +14,11 @@
 		text-decoration: none;
 	}
 }
+
+.btn-submit {
+	width: 100%;
+
+	@include respond-min($elf) {
+		width: auto;
+	}
+}

@@ -6564,6 +6564,9 @@ small {
 
 /*===================================*   `LAYOUT
 \*===================================*/
+body {
+  padding-top: 70px; }
+
 @media screen and (max-width: 767.9875px) {
   .container {
     padding-right: 0;
@@ -6581,6 +6584,12 @@ small {
   .btn-primary:focus, .btn-primary:hover {
     background-color: #202628;
     text-decoration: none; }
+
+.btn-submit {
+  width: 100%; }
+  @media screen and (min-width: 992px) {
+    .btn-submit {
+      width: auto; } }
 
 input {
   width: 100%;

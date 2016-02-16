@@ -2,6 +2,10 @@
    `LAYOUT
 \*===================================*/
 
+body {
+	padding-top: 70px;
+}
+
 .container {
 	@include respond-max($human) {
 		padding-right: 0;
