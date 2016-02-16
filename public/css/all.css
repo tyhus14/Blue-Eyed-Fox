@@ -6611,7 +6611,12 @@ button {
 /*===================================*   `HEADER
 \*===================================*/
 .header {
-  background-color: #202628; }
+  background-color: #202628;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: block; }
 
 .navbar {
   margin-bottom: 0; }
@@ -6799,7 +6804,7 @@ button {
 
 .contact-col + .contact-col {
   margin-top: 3em; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .contact-col + .contact-col {
       margin-top: 0; } }
 
@@ -6937,7 +6942,7 @@ button {
   font-size: 14px;
   font-size: 0.875rem;
   margin: 2em -15px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .about-body {
       margin: 0 -15px; } }
   .about-body p {

@@ -33,8 +33,8 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                     <li><a class="nav-item" href="#">Work</a></li>
-                    <li><a class="nav-item" href="#">About</a></li>
-                    <li><a class="nav-item" href="#">Contact</a></li>
+                    <li><a class="nav-item" href="#about">About</a></li>
+                    <li><a class="nav-item" href="#contact">Contact</a></li>
                   </ul>
                 </div><!-- /.navbar-collapse -->
               </div><!-- /.container-fluid -->
@@ -97,7 +97,7 @@
             </div>
       </div>
 
-      <div class="about">
+      <div id="about" class="about">
         <div class="container">
             <div class="col-md-8">
                <h3 class="about-title">Blue Eyed Fox is is a small creative web design and development consulting firm.</h3>
@@ -105,13 +105,11 @@
                <div class="col-md-6 about-body">
                     <span>What We Do</span>
                     <p>A group of very talented professionals collaborate with you to custom design a web application/website with your specific needs in mind. We understand the perfect balance between technical fluency and artistic creativity.</p>
-
-                    <p>Your website can be built and optimized for multi platforms with SEO (search engine optimization) on desktop and mobile devices. We can include informational, e-commerce, social media, blogs and various marketing campaigns which translate into sales for you.</p>
                     <a href="#" class="btn-primary">More</a>
                 </div>
                <div class="col-md-6 about-body">
                     <span>Vision</span>
-                    <p>We are excellent problem solvers and are committed to careful attention to our clients. We will make the process easy for you by offering creative solutions while maintaining budgets and adhering to deadlines. Whether you are building a website from scratch or revamping a current website, we bring innovation and functionality in everything we do.</p>
+                    <p>We are excellent problem solvers and are committed to careful attention to our clients. We will make the process easy for you by offering creative solutions while maintaining budgets and adhering to deadlines.</p>
                     <a href="#" class="btn-primary">More</a>
                 </div>
             </div>
@@ -131,7 +129,7 @@
                         <div class="featured-body">
                             <div class="featured-icon featured-icon--dark"><i class="fa fa-lightbulb-o fa-lg"></i></div>
                             <h3 class="featured-title">Why the arctic fox?</h3>
-                            <p class="featured-info">The Celtic legends believed that the fox were guides and honored for their keen vision and wisdom. The blue eyed arctic fox were noted for their cleverness and cunning ability for quick thinking and adaptability. responsive and swift.. creative problem solvers, the fox are determined and powerfully focused to always hit their target. We believe the blue eyed fox embodies the spirit of our oragnization's approach and philosophy.</p>
+                            <p class="featured-info">The Celtic legends believed that the fox were guides and honored for their keen vision and wisdom. The blue eyed arctic fox were noted for their cleverness and cunning ability for quick thinking and adaptability. <br> <br> Responsive and swift.. creative problem solvers, the fox are determined and powerfully focused to always hit their target. We believe the blue eyed fox embodies the spirit of our oragnization's approach and philosophy.</p>
                         </div>
                     </div>
                 </div>
@@ -140,7 +138,7 @@
         </div>
       </div>
 
-      <div class="contact">
+      <div id="contact" class="contact">
         <div class="container">
             <div class="col-xs-12 col-md-4 contact-col">
                 <h1>Implementation</h1>

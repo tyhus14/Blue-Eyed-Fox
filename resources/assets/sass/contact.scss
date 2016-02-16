@@ -33,7 +33,7 @@
 .contact-col + .contact-col {
 	margin-top: 3em;
 
-	@include respond-min($human) {
+	@include respond-min($elf) {
 		margin-top: 0;
 	}
 }

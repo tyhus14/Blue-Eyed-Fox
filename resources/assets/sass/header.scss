@@ -4,6 +4,11 @@
 
 .header {
 	background-color: $brand_clr-dark;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	display: block;
 }
 
 .navbar {

@@ -26,7 +26,7 @@
 	@include font-size(14px);
 	margin: 2em -15px;
 
-	@include respond-min($human) {
+	@include respond-min($elf) {
 		margin: 0 -15px;
 	}
 
