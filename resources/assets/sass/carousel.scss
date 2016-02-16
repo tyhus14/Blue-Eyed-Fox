@@ -37,6 +37,16 @@
 	}
 }
 
+.carousel-item--work {
+	@include respond-min($human) {
+		height: 400px;
+	}
+}
+
+.carousel-item--work-1 {
+	background-image: url("../images/carousel/work-1.jpg");
+}
+
 .carousel-item-1 {
     background-position: right;
 	background-image: url("../images/carousel/fox-1.jpg");
