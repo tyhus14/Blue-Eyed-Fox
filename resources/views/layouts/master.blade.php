@@ -33,7 +33,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                     <li><a class="nav-item" href="/work">Work</a></li>
-                    <li><a class="nav-item" href="/work">Features</a></li>
+                    <li><a class="nav-item" href="/features">Features</a></li>
                     <li><a class="nav-item" href="/#about">About</a></li>
                     <li><a class="nav-item" href="/#contact">Contact</a></li>
                   </ul>

@@ -6635,7 +6635,7 @@ button {
   color: #e7e7e7; }
   @media screen and (min-width: 768px) {
     .navbar-default .navbar-nav > li > a {
-      padding: 25px; } }
+      padding: 25px 20px; } }
   .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #77e1fc; }
   .navbar-default .navbar-nav > li > a.is-active {
@@ -7044,6 +7044,34 @@ button {
     font-size: 1rem; }
   .secondary-feature h2 {
     margin-bottom: 0.25em; }
+  .secondary-feature i {
+    font-size: 150px;
+    font-size: 9.375rem; }
+  .secondary-feature.responsive {
+    padding: 7em 0;
+    background-color: #77e1fc;
+    color: #202628; }
+    .secondary-feature.responsive i {
+      color: #202628;
+      position: relative;
+      left: -10px .secondary-feature.responsive i; }
+      .secondary-feature.responsive i :nth-of-type(1) {
+        left: 100; }
+  .secondary-feature.analytics {
+    padding: 7em 0;
+    background-color: #202628;
+    color: #fff; }
+    .secondary-feature.analytics i {
+      color: #77e1fc; }
+  .secondary-feature.search {
+    padding: 7em 0;
+    background-color: #fff;
+    color: #202628; }
+    .secondary-feature.search i {
+      color: #202628; }
+
+.secondary-feature-icon {
+  text-align: center; }
 
 .secondary-feature-1 {
   background-color: #e7e7e7;

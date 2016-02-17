@@ -33,6 +33,50 @@
 	h2 {
 		margin-bottom: 0.25em;
 	}
+
+	i {
+		@include font-size(150px);
+	}
+
+	&.responsive {
+		padding: 7em 0;
+		background-color: $brand_clr;
+		color: $brand_clr-dark;
+
+		i {
+			color: $brand_clr-dark;
+			position: relative;
+			left: -10px
+
+			&:nth-of-type(1) {
+				left: 100
+			}
+		}
+	}
+
+	&.analytics {
+		padding: 7em 0;
+		background-color: $brand_clr-dark;
+		color: #fff;
+
+		i {
+			color: $brand_clr;
+		}
+	}
+
+	&.search {
+		padding: 7em 0;
+		background-color: #fff;
+		color: $brand_clr-dark;
+
+		i {
+			color: $brand_clr-dark;
+		}
+	}
+}
+
+.secondary-feature-icon {
+	text-align: center;
 }
 
 .secondary-feature-1 {

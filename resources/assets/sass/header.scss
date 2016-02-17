@@ -44,7 +44,7 @@
 	color: $brand_clr-lighter;
 
 	@include respond-min($human) {
-		padding: 25px;
+		padding: 25px 20px;
 	}
 
 	&:focus,
