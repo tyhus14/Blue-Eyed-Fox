@@ -33,6 +33,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                     <li><a class="nav-item" href="/work">Work</a></li>
+                    <li><a class="nav-item" href="/work">Features</a></li>
                     <li><a class="nav-item" href="/#about">About</a></li>
                     <li><a class="nav-item" href="/#contact">Contact</a></li>
                   </ul>
@@ -50,7 +51,7 @@
         <footer class="footer">
             <div class="container">
                 <div class="col-xs-12 col-md-9 footer-links">
-                    <a href="">Work</a> / <a href="">About</a> / <a href="">Contact</a> / <a href="">Implementation</a>
+                    <a href="">Work</a> / <a href="/features">Features</a> / <a href="">About</a> / <a href="">Contact</a>
                     <span class="footer-copyright">&copy; Blue Eyed Fox, LLC 2016</span>
                 </div>
                 <div class="col-xs-12 col-md-3 footer-social">

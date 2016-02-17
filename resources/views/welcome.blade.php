@@ -69,7 +69,7 @@
                 </div>
                <div class="col-md-6 about-body">
                     <span>Vision</span>
-                    <p>We are excellent problem solvers and are committed to careful attention to our clients. We will make the process easy for you by offering creative solutions while maintaining budgets and adhering to deadlines.</p>
+                    <p>We are excellent problem solvers and are committed to careful attention to our clients.</p>
                     <a href="#" class="btn-primary">More</a>
                 </div>
             </div>
@@ -101,26 +101,26 @@
       <div id="contact" class="contact">
         <div class="container">
             <div class="col-xs-12 col-md-4 contact-col">
-                <h1>Implementation</h1>
+                <h1>Features</h1>
                 <div class="contact-block contact-block-1">
                     <div class="contact-block-body">
                         <h4>Responsive</h4>
                         <p>Works on all devices.</p>
-                        <a href="/implementation">more <i class="fa fa-caret-right"></i></a>
+                        <a href="/features">more <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
                 <div class="contact-block contact-block-2">
                     <div class="contact-block-body">
                         <h4>SEO</h4>
                         <p>Increase views.</p>
-                        <a href="/implementation">more <i class="fa fa-caret-right"></i></a>
+                        <a href="/features">more <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
                 <div class="contact-block contact-block-3">
                     <div class="contact-block-body">
                         <h4>Analytics</h4>
                         <p>Visits to page.</p>
-                        <a href="/implementation">more <i class="fa fa-caret-right"></i></a>
+                        <a href="/features">more <i class="fa fa-caret-right"></i></a>
                     </div>
                 </div>
             </div>

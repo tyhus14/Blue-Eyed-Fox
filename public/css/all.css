@@ -6682,9 +6682,14 @@ button {
         font-size: 25px;
         font-size: 1.5625rem; } }
 
-@media screen and (min-width: 768px) {
-  .carousel-item--work {
-    height: 400px; } }
+.carousel--hero .container {
+  position: static; }
+
+.carousel-item--secondary {
+  top: 0; }
+  @media screen and (min-width: 768px) {
+    .carousel-item--secondary {
+      height: 400px; } }
 
 .carousel-item--work-1 {
   background-image: url("../images/carousel/work-1.jpg"); }
@@ -7010,3 +7015,51 @@ button {
   width: 100%;
   max-width: 300px;
   margin-top: 2em; }
+
+.secondary-main {
+  background-color: #e7e7e7;
+  padding: 13em 0;
+  color: #fff; }
+  .secondary-main h1 {
+    font-size: 50px;
+    font-size: 3.125rem;
+    margin-top: 0.25em;
+    color: #202628; }
+  .secondary-main i {
+    font-size: 100px;
+    font-size: 6.25rem;
+    color: #202628; }
+  .secondary-main h2 {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: none;
+    color: #202628; }
+
+.secondary-feature {
+  background-size: cover;
+  padding: 11em 0; }
+  .secondary-feature p {
+    font-size: 16px;
+    font-size: 1rem; }
+  .secondary-feature h2 {
+    margin-bottom: 0.25em; }
+
+.secondary-feature-1 {
+  background-color: #e7e7e7;
+  background-image: url("../images/pages/website.jpg");
+  background-position: right; }
+
+.secondary-feature-2 {
+  background-color: #202628;
+  background-image: url("../images/pages/webapp.jpg");
+  background-position: left;
+  color: #fff; }
+
+.secondary-feature-3 {
+  background-color: #e7e7e7;
+  background-image: url("../images/pages/design.jpg");
+  background-position: right; }
+
+.work-item {
+  font-family: 'Lato', sans-serif; }

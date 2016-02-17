@@ -37,7 +37,15 @@
 	}
 }
 
-.carousel-item--work {
+.carousel--hero {
+	.container {
+		position: static;
+	}
+}
+
+.carousel-item--secondary {
+	top: 0;
+
 	@include respond-min($human) {
 		height: 400px;
 	}

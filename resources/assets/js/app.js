@@ -7,7 +7,7 @@ $(".nav-item").on("click", function(){
 // Carousel
 $('.carousel').slick({
 	autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 7000,
     dots: true,
     arrows: false
 });

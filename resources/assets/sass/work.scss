@@ -1,0 +1,59 @@
+.secondary-main {
+	background-color: $brand_clr-lighter;
+	padding: 13em 0;
+	color: #fff;
+
+	h1 {
+		@include font-size(50px);
+		margin-top: 0.25em;
+		color: $brand_clr-dark;
+	}
+
+	i {
+		@include font-size(100px);
+		color: $brand_clr-dark;
+	}
+
+	h2 {
+		@include font-size(21px);
+		font-family: 'Lato', sans-serif;
+		text-transform: none;
+		color: $brand_clr-dark;
+	}
+}
+
+.secondary-feature {
+	background-size: cover;
+	padding: 11em 0;
+
+	p {
+		@include font-size(16px);
+	}
+
+	h2 {
+		margin-bottom: 0.25em;
+	}
+}
+
+.secondary-feature-1 {
+	background-color: $brand_clr-lighter;
+	background-image: url("../images/pages/website.jpg");
+	background-position: right;
+}
+
+.secondary-feature-2 {
+	background-color: $brand_clr-dark;
+	background-image: url("../images/pages/webapp.jpg");
+	background-position: left;
+	color: #fff;
+}
+
+.secondary-feature-3 {
+	background-color: $brand_clr-lighter;
+	background-image: url("../images/pages/design.jpg");
+	background-position: right;
+}
+
+.work-item {
+	font-family: 'Lato', sans-serif;
+}

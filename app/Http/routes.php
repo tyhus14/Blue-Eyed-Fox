@@ -19,8 +19,8 @@ Route::get('/work', function () {
     return view('work');
 });
 
-Route::get('/implementation', function () {
-    return view('implementation');
+Route::get('/features', function () {
+    return view('features');
 });
 
 /*
